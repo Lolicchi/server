@@ -1,4 +1,4 @@
-import { serve } from 'https://deno.land/std/http/mod.ts'
+import { serve } from 'https://deno.land/std@0.149.0/http/mod.ts'
 
 try {
   let port = Deno.env.get('PORT') || 8080,
